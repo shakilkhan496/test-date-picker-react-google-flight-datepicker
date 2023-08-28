@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import { RangeDatePicker } from 'react-google-flight-datepicker';
 import 'react-google-flight-datepicker/dist/main.css';
 import { useState } from 'react';
+import { RangeDatePicker } from 'react-google-flight-datepicker';
+import 'react-google-flight-datepicker/dist/main.css';
 
 function App() {
   const [selectedDate, setSelectedDate] = useState({
